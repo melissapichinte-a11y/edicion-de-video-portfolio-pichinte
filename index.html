@@ -1,110 +1,93 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portafolio de Edición de Video</title>
+<section class="video-section">
+  <h2>Videos producidos y editados</h2>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f0f0f;
-      color: white;
-    }
+  <!-- Video 1: Vimeo -->
+  <div class="video-card">
+    <h3>Grabación y edición de producto</h3>
 
-    header {
-      padding: 60px 20px 30px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      color: #cfcfcf;
-      font-size: 18px;
-    }
-
-    .videos {
-      max-width: 1100px;
-      margin: auto;
-      padding: 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 25px;
-    }
-
-    .card {
-      background: #1a1a1a;
-      border-radius: 18px;
-      overflow: hidden;
-      padding-bottom: 20px;
-    }
-
-    .video {
-      position: relative;
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      background: #000;
-    }
-
-    .video iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-
-    .card h2 {
-      font-size: 20px;
-      padding: 0 18px;
-      margin-top: 18px;
-    }
-
-    .card p {
-      color: #bdbdbd;
-      padding: 0 18px;
-      line-height: 1.5;
-    }
-  </style>
-</head>
-
-<body>
-
-  <header>
-    <h1>Portafolio de Edición de Video</h1>
-    <p>Producción, edición y postproducción de contenido audiovisual.</p>
-  </header>
-
-  <section class="videos">
-
-    <div class="card">
-      <div class="video">
-        <iframe src="https://drive.google.com/file/d/ID_DEL_VIDEO_1/preview" allow="autoplay"></iframe>
-      </div>
-      <h2>Video promocional sobre medicamento</h2>
-      <p>Producción y edición profesional de video para comunicación en salud.</p>
+    <div class="video-wrapper">
+      <iframe 
+        src="https://player.vimeo.com/video/1208177527"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+      </iframe>
     </div>
 
-    <div class="card">
-      <div class="video">
-        <iframe src="https://drive.google.com/file/d/ID_DEL_VIDEO_2/preview" allow="autoplay"></iframe>
-      </div>
-      <h2>Video institucional</h2>
-      <p>Edición de contenido audiovisual para campañas, redes sociales y comunicación de marca.</p>
+    <div class="service-cards">
+      <div class="service-card">Grabación de producto</div>
+      <div class="service-card">Grabación de video</div>
+      <div class="service-card">Guionado</div>
+      <div class="service-card">Edición final del video</div>
+    </div>
+  </div>
+
+  <!-- Video 2: Vimeo -->
+  <div class="video-card">
+    <h3>Edición de contenido promocional</h3>
+
+    <div class="video-wrapper">
+      <iframe 
+        src="https://player.vimeo.com/video/1146438562"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+      </iframe>
     </div>
 
-    <div class="card">
-      <div class="video">
-        <iframe src="https://drive.google.com/file/d/ID_DEL_VIDEO_3/preview" allow="autoplay"></iframe>
-      </div>
-      <h2>Video para redes sociales</h2>
-      <p>Contenido editado para plataformas digitales con enfoque visual y narrativo.</p>
+    <div class="service-cards">
+      <div class="service-card">Seguimiento de guion brindado por Ninja Tropic</div>
+      <div class="service-card">Edición de contenido para promocionar los servicios de San Diego Zoo</div>
+      <div class="service-card">Edición de videos en bruto</div>
+      <div class="service-card">Montaje, transiciones y motion graphics</div>
+      <div class="service-card">Animación general</div>
+      <div class="service-card">Edición de audio</div>
+      <div class="service-card">Entrega del producto final</div>
+    </div>
+  </div>
+
+  <!-- Video 3: YouTube -->
+  <div class="video-card">
+    <h3>Edición audiovisual para contenido digital</h3>
+
+    <div class="video-wrapper">
+      <iframe 
+        src="https://www.youtube.com/embed/TYeNB4V-nuA"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
     </div>
 
-  </section>
+    <div class="service-cards">
+      <div class="service-card">Seguimiento de guion brindado por Ninja Tropic</div>
+      <div class="service-card">Edición de contenido para promocionar y dar a conocer los servicios de San Diego Zoo</div>
+      <div class="service-card">Edición de videos en bruto</div>
+      <div class="service-card">Montaje, transiciones y motion graphics</div>
+      <div class="service-card">Animación general</div>
+      <div class="service-card">Edición de audio</div>
+      <div class="service-card">Entrega del producto final</div>
+    </div>
+  </div>
 
-</body>
-</html>
+  <!-- Video 4: TikTok -->
+  <div class="video-card">
+    <h3>Contenido promocional para TikTok</h3>
+
+    <blockquote 
+      class="tiktok-embed" 
+      cite="https://www.tiktok.com/@matchcontusalud/video/7644704455719439636" 
+      data-video-id="7644704455719439636" 
+      style="max-width: 605px; min-width: 325px;">
+      <section></section>
+    </blockquote>
+
+    <div class="service-cards">
+      <div class="service-card">Contenido promocional</div>
+      <div class="service-card">Edición con hook visual</div>
+      <div class="service-card">Promoción de servicios</div>
+    </div>
+  </div>
+</section>
+
+<script async src="https://www.tiktok.com/embed.js"></script>
