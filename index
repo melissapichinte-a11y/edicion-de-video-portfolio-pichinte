@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Edición de Video</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      padding: 60px 20px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #cfcfcf;
+      font-size: 18px;
+    }
+
+    .videos {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 18px;
+      overflow: hidden;
+      padding-bottom: 20px;
+    }
+
+    .video {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+    }
+
+    .video iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      padding: 0 18px;
+      margin-top: 18px;
+    }
+
+    .card p {
+      color: #bdbdbd;
+      padding: 0 18px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Portafolio de Edición de Video</h1>
+    <p>Producción, edición y postproducción de contenido audiovisual.</p>
+  </header>
+
+  <section class="videos">
+
+    <div class="card">
+      <div class="video">
+        <iframe src="https://drive.google.com/file/d/ID_DEL_VIDEO_1/preview" allow="autoplay"></iframe>
+      </div>
+      <h2>Video promocional sobre medicamento</h2>
+      <p>Producción y edición profesional de video para comunicación en salud.</p>
+    </div>
+
+    <div class="card">
+      <div class="video">
+        <iframe src="https://drive.google.com/file/d/ID_DEL_VIDEO_2/preview" allow="autoplay"></iframe>
+      </div>
+      <h2>Video institucional</h2>
+      <p>Edición de contenido audiovisual para campañas, redes sociales y comunicación de marca.</p>
+    </div>
+
+    <div class="card">
+      <div class="video">
+        <iframe src="https://drive.google.com/file/d/ID_DEL_VIDEO_3/preview" allow="autoplay"></iframe>
+      </div>
+      <h2>Video para redes sociales</h2>
+      <p>Contenido editado para plataformas digitales con enfoque visual y narrativo.</p>
+    </div>
+
+  </section>
+
+</body>
+</html>
